@@ -3,19 +3,19 @@
 #и подсчитайте сколько у вас семян в ведре и в мешке использовать метод
 
 
-# flower1 = ['g','r','r','g','g','g','g','g','r','r','g','g','g','g','r','g','g','e','r','r','e','g','g','g','g','r','r','r','g','e']
-# flower2 = ['g','g','g','r','g','g','e','r','r','e','g','g','g','g','r','r','r','g','e']
+flower1 = ['g','r','r','g','g','g','g','g','r','r','g','g','g','g','r','g','g','e','r','r','e','g','g','g','g','r','r','r','g','e']
+flower2 = ['g','g','g','r','g','g','e','r','r','e','g','g','g','g','r','r','r','g','e']
 
-# a = flower1 + flower2
-# a_good = []
-# a_bad = []
-# for i in a:  
-#     if i == 'g':
-#         a_good.append(i)
-#     else:
-#         a_bad.append(i)
-# print((a_good), len(a_good))
-# print((a_bad), len(a_bad))
+a = flower1 + flower2
+a_good = []
+a_bad = []
+for i in a:
+    if i == 'g':
+        a_good.append(i)
+    else:
+        a_bad.append(i)
+print((a_good), len(a_good))
+print((a_bad), len(a_bad))
 
              
 
